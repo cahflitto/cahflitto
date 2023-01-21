@@ -33,32 +33,6 @@
 </p>
 </details>
 
-<!-- Recent Activity -->
-<details>
-  <summary><b>⚡ Recent Activity</b></summary>
-    <p>
-            
-<img align='right' width='85' src='https://i.ibb.co/qWWpD0v/astro-dab-128.png' alt='Astro Dab'>
-
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#52](https://github.com/Lissy93/personal-security-checklist/pull/52) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-2. 🎉 Merged PR [#112](https://github.com/Lissy93/personal-security-checklist/pull/112) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-3. 🎉 Merged PR [#128](https://github.com/Lissy93/personal-security-checklist/pull/128) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-4. 🎉 Merged PR [#124](https://github.com/Lissy93/personal-security-checklist/pull/124) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-5. 🎉 Merged PR [#123](https://github.com/Lissy93/personal-security-checklist/pull/123) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-6. 🎉 Merged PR [#122](https://github.com/Lissy93/personal-security-checklist/pull/122) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-7. 🗣 Commented on [#125](https://github.com/Lissy93/personal-security-checklist/issues/125) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-8. ❗️ Closed issue [#120](https://github.com/Lissy93/personal-security-checklist/issues/120) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-9. 🗣 Commented on [#120](https://github.com/Lissy93/personal-security-checklist/issues/120) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-10. 🗣 Commented on [#118](https://github.com/Lissy93/personal-security-checklist/issues/118) in [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist)
-<!--END_SECTION:activity-->
-
-➡️  [More Activity](/RECENT-ACTIVITY.md)
-
-----
-
-</p>
-</details>
 
 <!-- Tech Stack -->  
 <details>
@@ -76,7 +50,6 @@
 **Misc** | [![Linux](https://img.shields.io/static/v1?label=&message=Linux&color=FCC624&logo=linux&logoColor=FFFFFF)](https://www.linux.org/) [![Bash](https://img.shields.io/static/v1?label=&message=Bash&color=4EAA25&logo=gnubash&logoColor=FFFFFF)](https://www.gnu.org/software/bash/) [![Markdown](https://img.shields.io/static/v1?label=&message=Markdown&color=000000&logo=markdown&logoColor=FFFFFF)](https://en.wikipedia.org/wiki/Markdown)
 **Editors** | [![Vim](https://img.shields.io/static/v1?label=&message=Vim&color=019733&logo=vim&logoColor=FFFFFF)](https://www.vim.org/) [![VS Code](https://img.shields.io/static/v1?label=&message=VS%20Code&color=9013FE&logo=visualstudiocode&logoColor=FFFFFF)](https://code.visualstudio.com/)
       
- See **[➡️ Full Tech Stack](https://github.com/Lissy93/Lissy93/blob/master/TECH-STACK.md)** page, for a full list of projects using the above technologies
 
 ----      
 
