@@ -1,0 +1,106 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, -apple-system, sans-serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, -apple-system, sans-serif;
+      fill: #38bdae;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.4s ease-in-out forwards;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, -apple-system, sans-serif;
+      fill: #38bdae;
+      animation: scaleInAnimation 0.4s ease-in-out forwards;
+    }
+    .bold {
+      font-weight: 700;
+      fill: #a9b1d6;
+    }
+    .icon {
+      fill: #bf91f3;
+    }
+    .rank-circle-rim {
+      stroke: #70a5fd;
+      fill: none;
+      stroke-width: 6;
+      opacity: 0.2;
+    }
+    .rank-circle {
+      stroke: #70a5fd;
+      stroke-dasharray: 250;
+      stroke-dashoffset: 35;
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      opacity: 0.9;
+      transform-origin: -10px 8px;
+      transform: rotate(-90deg);
+    }
+    @keyframes scaleInAnimation {
+      from { transform: translate(-5px, 5px) scale(0); }
+      to { transform: translate(-5px, 5px) scale(1); }
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" rx="8" height="194" width="494" fill="#1a1b27" stroke="#1f2335" stroke-width="1"/>
+
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">My GitHub Statistics</text>
+  </g>
+
+  <g transform="translate(0, 55)">
+    <!-- Rank Circle -->
+    <g transform="translate(415, 42)">
+      <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+      <circle class="rank-circle" cx="-10" cy="8" r="40" />
+      <g class="rank-text">
+        <text x="-10" y="8" alignment-baseline="central" dominant-baseline="central" text-anchor="middle">A+</text>
+      </g>
+    </g>
+
+    <!-- Stats Items (STARS EXCLUDED AS REQUESTED) -->
+    <svg x="0" y="0">
+      <g class="stagger" style="animation-delay: 200ms" transform="translate(25, 2)">
+        <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.002 4.002 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"></path>
+        </svg>
+        <text class="stat bold" x="25" y="12.5">Total Commits:</text>
+        <text class="stat" x="180" y="12.5">3,142</text>
+      </g>
+
+      <g class="stagger" style="animation-delay: 350ms" transform="translate(25, 30)">
+        <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.256a2.251 2.251 0 11-1.5 0V5a2.5 2.5 0 00-2.5-2.5z"></path>
+        </svg>
+        <text class="stat bold" x="25" y="12.5">Total PRs:</text>
+        <text class="stat" x="180" y="12.5">158</text>
+      </g>
+
+      <g class="stagger" style="animation-delay: 500ms" transform="translate(25, 58)">
+        <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path>
+        </svg>
+        <text class="stat bold" x="25" y="12.5">Total Issues:</text>
+        <text class="stat" x="180" y="12.5">84</text>
+      </g>
+
+      <g class="stagger" style="animation-delay: 650ms" transform="translate(25, 86)">
+        <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"></path>
+        </svg>
+        <text class="stat bold" x="25" y="12.5">Contributed to:</text>
+        <text class="stat" x="180" y="12.5">46 repos</text>
+      </g>
+    </svg>
+  </g>
+</svg>

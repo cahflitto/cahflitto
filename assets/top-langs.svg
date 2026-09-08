@@ -1,0 +1,95 @@
+<svg width="350" height="195" viewBox="0 0 350 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, -apple-system, sans-serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .lang-name {
+      font: 600 12px 'Segoe UI', Ubuntu, -apple-system, sans-serif;
+      fill: #a9b1d6;
+    }
+    .lang-pct {
+      font: 400 12px 'Segoe UI', Ubuntu, -apple-system, sans-serif;
+      fill: #38bdae;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.4s ease-in-out forwards;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" rx="8" height="194" width="349" fill="#1a1b27" stroke="#1f2335" stroke-width="1"/>
+
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">My Programming Languages</text>
+  </g>
+
+  <!-- Multi-color Progress Bar -->
+  <g transform="translate(25, 52)">
+    <mask id="bar-mask">
+      <rect x="0" y="0" width="300" height="8" rx="4" fill="white"/>
+    </mask>
+    <g mask="url(#bar-mask)">
+      <!-- PHP: 35% -> 105px -->
+      <rect x="0" y="0" width="105" height="8" fill="#4F5D95"/>
+      <!-- TypeScript: 24% -> 72px -->
+      <rect x="105" y="0" width="72" height="8" fill="#3178C6"/>
+      <!-- JavaScript: 18% -> 54px -->
+      <rect x="177" y="0" width="54" height="8" fill="#F7DF1E"/>
+      <!-- Python: 12% -> 36px -->
+      <rect x="231" y="0" width="36" height="8" fill="#3572A5"/>
+      <!-- Go: 7% -> 21px -->
+      <rect x="267" y="0" width="21" height="8" fill="#00ADD8"/>
+      <!-- Dart: 4% -> 12px -->
+      <rect x="288" y="0" width="12" height="8" fill="#00B4AB"/>
+    </g>
+  </g>
+
+  <!-- Language Items Grid (2 columns x 3 rows) -->
+  <g transform="translate(25, 80)">
+    <!-- Column 1 -->
+    <!-- PHP -->
+    <g class="stagger" style="animation-delay: 200ms" transform="translate(0, 0)">
+      <circle cx="5" cy="5" r="5" fill="#4F5D95" />
+      <text x="16" y="9" class="lang-name">PHP</text>
+      <text x="105" y="9" class="lang-pct" text-anchor="end">35.0%</text>
+    </g>
+    <!-- TypeScript -->
+    <g class="stagger" style="animation-delay: 350ms" transform="translate(0, 26)">
+      <circle cx="5" cy="5" r="5" fill="#3178C6" />
+      <text x="16" y="9" class="lang-name">TypeScript</text>
+      <text x="105" y="9" class="lang-pct" text-anchor="end">24.0%</text>
+    </g>
+    <!-- JavaScript -->
+    <g class="stagger" style="animation-delay: 500ms" transform="translate(0, 52)">
+      <circle cx="5" cy="5" r="5" fill="#F7DF1E" />
+      <text x="16" y="9" class="lang-name">JavaScript</text>
+      <text x="105" y="9" class="lang-pct" text-anchor="end">18.0%</text>
+    </g>
+
+    <!-- Column 2 -->
+    <!-- Python -->
+    <g class="stagger" style="animation-delay: 200ms" transform="translate(170, 0)">
+      <circle cx="5" cy="5" r="5" fill="#3572A5" />
+      <text x="16" y="9" class="lang-name">Python</text>
+      <text x="120" y="9" class="lang-pct" text-anchor="end">12.0%</text>
+    </g>
+    <!-- Go -->
+    <g class="stagger" style="animation-delay: 350ms" transform="translate(170, 26)">
+      <circle cx="5" cy="5" r="5" fill="#00ADD8" />
+      <text x="16" y="9" class="lang-name">Go</text>
+      <text x="120" y="9" class="lang-pct" text-anchor="end">7.0%</text>
+    </g>
+    <!-- Dart -->
+    <g class="stagger" style="animation-delay: 500ms" transform="translate(170, 52)">
+      <circle cx="5" cy="5" r="5" fill="#00B4AB" />
+      <text x="16" y="9" class="lang-name">Dart</text>
+      <text x="120" y="9" class="lang-pct" text-anchor="end">4.0%</text>
+    </g>
+  </g>
+</svg>

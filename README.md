@@ -25,11 +25,11 @@
 
 <div align="center">
   <p>
-    <img src="https://streak-stats.demolab.com/?user=cahflitto&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
+    <img src="./assets/streak-stats.svg" alt="GitHub Streak Stats" />
   </p>
   <p>
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cahflitto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Cahflitto's GitHub Stats" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cahflitto&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+    <img src="./assets/github-stats.svg" alt="Cahflitto's GitHub Stats" />
+    <img src="./assets/top-langs.svg" alt="Top Languages" />
   </p>
 </div>
 
